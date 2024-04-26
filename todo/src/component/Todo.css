@@ -1,0 +1,42 @@
+body {
+  background-color: #fcf6bd;
+}
+.custom-input-class {
+  color: blue; /* Change the color here */
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #e9c46a !important;
+  }
+  .input {
+    width: 100% !important;
+  }
+  .input button {
+    /* background-color: antiquewhite !important; */
+    padding: 0 !important;
+    font-size: 10px !important;
+    font-weight: 900 !important;
+  }
+  .list {
+    padding: 10px !important;
+  }
+  /* .listContent {
+  } */
+  .button {
+    padding: 0 !important;
+  }
+  .buttonContent {
+    gap: 2px !important;
+  }
+  .increseNumber {
+    margin: 0 !important;
+    margin-right: 5px !important;
+  }
+  .textContent {
+    font-size: 18px;
+  }
+  .done {
+    display: none !important;
+  }
+}
